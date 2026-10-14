@@ -1,8 +1,8 @@
 class Uncork < Formula
   desc "Drag-and-drop .exe launcher for macOS, powered by Wine"
   homepage "https://github.com/61uehigh/uncork"
-  url "https://github.com/61uehigh/uncork/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "2a65088e09d76aeda9f4d4271f7008ded654452890a816ccde9e00a7ede03165"
+  url "https://github.com/61uehigh/uncork/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "55fbf04e71d965d480b96088bbc3fc43ef50f800cc827acc9de9f031ced93910"
   license "MIT"
   head "https://github.com/61uehigh/uncork.git", branch: "main"
 
