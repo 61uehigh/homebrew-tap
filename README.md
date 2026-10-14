@@ -16,3 +16,7 @@ brew install uncork
 | Formula | Description |
 |---|---|
 | [`uncork`](https://github.com/61uehigh/uncork) | Drag-and-drop .exe launcher for macOS, powered by Wine |
+
+The [Update uncork](.github/workflows/update-uncork.yml) workflow checks every six hours for a new
+[uncork release](https://github.com/61uehigh/uncork/releases) and points the formula at it. It uses only this
+repository's short-lived `GITHUB_TOKEN`; no deploy key or token is stored.
