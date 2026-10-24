@@ -2,7 +2,7 @@ class Mothership < Formula
   desc "Personal workspace for your work tools and Claude, Codex, and GPT agents"
   homepage "https://github.com/61uehigh/mothership"
   url "https://github.com/61uehigh/mothership/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "badde67460a1b586a86c24d6e5cec306b1772e280004ac58d1cc2852f2f32e5d"
+  sha256 "0bc501b2e1afa13003c5fded7918e075ad46b81bbd273a88782740ea0bf38625"
   license "MIT"
   head "https://github.com/61uehigh/mothership.git", branch: "main"
 
