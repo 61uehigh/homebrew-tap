@@ -2,15 +2,18 @@
 
 Homebrew formulae by [61uehigh](https://github.com/61uehigh).
 
-```sh
-brew install 61uehigh/tap/uncork
-```
-
-Or add the tap once, then use the short name:
+Homebrew loads formulae from taps outside its own only after you trust them, so trust this tap once:
 
 ```sh
 brew tap 61uehigh/tap
+brew trust 61uehigh/tap
+```
+
+Then install by name:
+
+```sh
 brew install uncork
+brew install mothership
 ```
 
 | Formula | Description |
